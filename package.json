@@ -1,0 +1,19 @@
+{
+	"name": "date-formatter",
+	"version": "1.0.0",
+	"description": "A js formatter for Date.",
+	"main": "src/date-formatter.js",
+	"scripts": {
+		"build": "babel src --watch --out-dir dist --source-maps",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"date-format",
+		"formatter"
+	],
+	"author": "picker",
+	"license": "MIT",
+	"devDependencies": {
+		"babel-preset-es2015": "^6.9.0"
+	}
+}
