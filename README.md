@@ -14,8 +14,11 @@ Date.prototype.format=function(format){
     return dateFormatter(this, format);
 }
 new Date().format('yyyy-MM-dd hh:mm:ss');
-// or
+```
 
+or
+
+```javascript
 dateFormatter(new Date(), 'yyyy-MM-dd hh:mm:ss');
 ```
 
